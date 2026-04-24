@@ -141,7 +141,7 @@ const projects = [
     id: 5,
     title: "Inventory System",
     desc: "JavaScript inventory management system to track products, quantities, and categories through an intuitive dashboard.",
-    link: "https://amrx555.github.io/Booking-System/",
+    link: "https://amrx555.github.io/Inventory-System/",
     type: "js",
   },
   {
