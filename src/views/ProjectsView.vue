@@ -75,30 +75,7 @@
         </a>
       </div>
     </div>
-
-    <!-- CV -->
-    <div class="cv-wrap">
-      <a
-        v-if="cvReady"
-        href="/cv.pdf"
-        download="Amr_Ibrahim_CV.pdf"
-        class="btn-p"
-      >
-        Download CV
-        <svg
-          width="15"
-          height="15"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.5"
-          viewBox="0 0 24 24"
-        >
-          <path d="M12 16l-4-4h3V4h2v8h3l-4 4z" />
-          <path d="M4 20h16" />
-        </svg>
-      </a>
-      <div v-else class="cv-note">CV will be available soon!</div>
-    </div>
+    <div class="cv"><a href="/cv.pdf" download id="cv">Download CV</a></div>
   </div>
 </template>
 
@@ -106,8 +83,6 @@
 import { ref, computed } from "vue";
 
 const filter = ref("all");
-const cvReady = ref(false);
-
 const projects = [
   {
     id: 1,
@@ -221,16 +196,6 @@ const filteredProjects = computed(() =>
   overflow: hidden;
   animation: cardIn 0.5s both;
 }
-@keyframes cardIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
 .p-card::before {
   content: "";
   position: absolute;
@@ -315,21 +280,27 @@ const filteredProjects = computed(() =>
 .c-link:hover .arrow {
   transform: translate(2px, -2px);
 }
-
-.cv-wrap {
-  text-align: center;
-  margin-top: 60px;
+.cv {
+  display: flex;
+  justify-content: center;
 }
-.cv-note {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
+#cv {
+  display: inline-block;
+  margin-top: 60px;
   padding: 12px 22px;
-  background: rgba(66, 184, 131, 0.08);
-  border: 1px dashed rgba(66, 184, 131, 0.3);
-  border-radius: 12px;
-  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
   font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.22s;
+}
+#cv:hover {
+  background: var(--green);
+  border-color: var(--green);
+  color: #000;
 }
 
 @media (max-width: 480px) {
