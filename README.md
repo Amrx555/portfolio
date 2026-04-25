@@ -1,25 +1,34 @@
-# amr-portfolio
+Personal Portfolio - Amr Ibrahem
 
-## Project setup
-```
-npm install
-```
+Welcome to my professional portfolio! This project showcases my work, skills, and experience in web development.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+---
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 🌐 Live Demo
+You can explore the live site here: 
+👉 [amr-portfolio-i.netlify.app](https://amr-portfolio-i.netlify.app/)
 
-### Lints and fixes files
-```
-npm run lint
-```
+---
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# portfolio
+## 📸 Preview
+![Portfolio Preview](89999.jpg)
+
+---
+## ✨ Features
+* Fully Responsive: Works perfectly on mobile, tablet, and desktop.
+* Modern Design: Clean and professional UI.
+* Project Showcase: List of my latest technical projects.
+* Fast Performance: Optimized for speed and smooth scrolling.
+---
+## 🛠️ Tech Stack
+* vue.js
+* HTML5
+* CSS3
+* JavaScript
+* Netlify (For Hosting & Deployment)
+---
+## 📧 Connect With Me
+Feel free to reach out for collaborations or just a friendly hello!
+
+* LinkedIn: [Amr Ibrahem](https://www.linkedin.com/in/amr-ibrahem-44545131a?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+* Email: [amri69217@gmail.com](mailto:amri69217@gmail.com)
