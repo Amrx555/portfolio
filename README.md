@@ -10,7 +10,7 @@ You can explore the live site here:
 ---
 
 ## 📸 Preview
-![Portfolio Preview](89999.jpg)
+![Portfolio Preview](6010087852470897559_121.jpg)
 
 ---
 ## ✨ Features
