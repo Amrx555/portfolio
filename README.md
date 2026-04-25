@@ -3,7 +3,6 @@ Personal Portfolio - Amr Ibrahem
 Welcome to my professional portfolio! This project showcases my work, skills, and experience in web development.
 
 ---
-
 ## 🌐 Live Demo
 You can explore the live site here: 
 👉 [amr-portfolio-i.netlify.app](https://amr-portfolio-i.netlify.app/)
