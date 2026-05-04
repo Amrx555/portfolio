@@ -107,26 +107,34 @@ const projects = [
   },
   {
     id: 4,
+    title: "My app",
+    desc: "User management system with secure login, admin dashboard, and API-based data handling.Includes user profiles, authentication, and a responsive interface.",
+    link: "https://my-app-wkd6.vercel.app/",
+    type: "vue",
+  },
+  {
+    id: 5,
     title: "Mini E-commerce",
     desc: "JavaScript shopping site with product listings, cart functionality, and a smooth checkout flow â€” no frameworks.",
     link: "https://amrx555.github.io/Mini-E-commerce/",
     type: "js",
   },
   {
-    id: 5,
+    id: 6,
     title: "Inventory System",
     desc: "JavaScript inventory management system to track products, quantities, and categories through an intuitive dashboard.",
     link: "https://amrx555.github.io/Inventory-System/",
     type: "js",
   },
   {
-    id: 6,
+    id: 7,
     title: "Admin Dashboard",
     desc: "Fully responsive admin panel built in vanilla JavaScript, featuring data tables, stats cards, and a sidebar layout.",
     link: "https://amrx555.github.io/Admin-Dashboard/",
     type: "js",
   },
 ];
+
 const filteredProjects = computed(() =>
   filter.value === "all"
     ? projects
